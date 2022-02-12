@@ -385,6 +385,12 @@ footer a svg {
     }
 }
 
+@media all and (orientation: landscape) {
+    .slider-container {
+        height: 80%;
+    }
+}
+
 
 /* Large devices (laptops/desktops, 992px and up) */
 
