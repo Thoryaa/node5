@@ -181,6 +181,7 @@ header .search-part {
     align-items: center;
     gap: 30px;
     justify-content: center;
+    margin-top: 5vh;
 }
 
 .slid-exp-container {
