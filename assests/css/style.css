@@ -385,11 +385,14 @@ footer a svg {
     }
 }
 
-@media all and (orientation: landscape) {
+
+/* @media all and (orientation: landscape) {
     .slider-container {
         height: 100%;
     }
 }
+
+/ */
 
 
 /* Large devices (laptops/desktops, 992px and up) */
