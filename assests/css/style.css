@@ -344,6 +344,12 @@ footer a svg {
     justify-content: center;
 }
 
+@media screen (orientation: landscape) {
+    .slider-container {
+        height: 100%;
+    }
+}
+
 
 /* Extra small devices (phones, 600px and down) */
 
@@ -386,15 +392,6 @@ footer a svg {
 }
 
 
-/* @media all and (orientation: landscape) {
-    .slider-container {
-        height: 100%;
-    }
-}
-
-/ */
-
-
 /* Large devices (laptops/desktops, 992px and up) */
 
 @media only screen and (min-width: 992px) {}
@@ -416,10 +413,4 @@ footer a svg {
     .book-content>svg {
         display: none;
     }
-}
-
-display: none;
-
-}
-
 }
