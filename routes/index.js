@@ -18,10 +18,14 @@ router.get('/products', function(req, res, next) {
     });
 
 });
-router.get('/:number?', function(req, res) {
+router.get('/products/:number?', function(req, res) {
     axios.get("https://dummyjson.com/products").then(data => {
         var num = req.params.number;
-        res.send(data.data.products[num]);
+        if (num != null) {
+            res.render('specificproduct', { title: 'products here', products: data.data.products[num] });
+
+        }
+
 
     });
 
